@@ -12,12 +12,14 @@ print("Enter the elements of list2")
 for i in range(0,k):
     ele=int(input())
     lst2.append(ele)
-print("List1= "+str(lst))
 for number in lst:
     if number>0: lst1.append(number)
+
+print("List1= "+str(lst))
 print(lst1)
-print("List2 =  "+str(lst2))
 for number in lst2:
     if number>0: lst3.append(number)
+
+print("List2 =  "+str(lst2))
 print(lst3)
 
